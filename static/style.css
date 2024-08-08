@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.login-container {
+    width: 50%;
+    margin: 5% auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.card-header {
+    border-radius: 0;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.form-control, .form-select {
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.btn-primary, .btn-success {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.logout-link {
+    color: #fff;
+    background-color: #dc3545;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.logout-link:hover {
+    background-color: #bd2130;
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+    .profile-picture {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+}
